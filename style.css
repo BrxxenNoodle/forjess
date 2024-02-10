@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #ddc9d2
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.button:hover{
+    opacity:75
+}
+
+
+.yes {
+    background-color: #a2cea2; /* Green */
+    color: #ffffff; /* White text */
+}
+
+.no {
+    background-color: #da7c67; /* Red */
+    color: #ffffff; /* White text */
+}
+
+.p {
+    text-align: center;
+    text-shadow: 1;
+}
